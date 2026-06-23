@@ -1,0 +1,81 @@
+{
+    "info": {
+        "name": "Supply Chain Platform API",
+        "description": "API collection for the End-to-End Supply Chain Analytics Platform",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Health Check",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/",
+                    "host": ["{{base_url}}"],
+                    "path": [""]
+                }
+            }
+        },
+        {
+            "name": "Inventory Analytics",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/api/v1/inventory",
+                    "host": ["{{base_url}}"],
+                    "path": ["api", "v1", "inventory"]
+                }
+            }
+        },
+        {
+            "name": "Logistics Analytics",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/api/v1/logistics",
+                    "host": ["{{base_url}}"],
+                    "path": ["api", "v1", "logistics"]
+                }
+            }
+        },
+        {
+            "name": "Supplier Analytics",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/api/v1/suppliers",
+                    "host": ["{{base_url}}"],
+                    "path": ["api", "v1", "suppliers"]
+                }
+            }
+        },
+        {
+            "name": "Warehouse Analytics",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/api/v1/warehouse",
+                    "host": ["{{base_url}}"],
+                    "path": ["api", "v1", "warehouse"]
+                }
+            }
+        },
+        {
+            "name": "Executive KPIs",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/api/v1/executive",
+                    "host": ["{{base_url}}"],
+                    "path": ["api", "v1", "executive"]
+                }
+            }
+        }
+    ]
+}
